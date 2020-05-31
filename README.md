@@ -25,6 +25,8 @@ valor int(3) not null ,
 cpf int(11) not null,
 constraint fk_cpf foreign key (cpf) references cliente(cpf)
 );
+
+
 create table sinistro(
 id_sinistro int primary key not null auto_increment,
 dia date,
